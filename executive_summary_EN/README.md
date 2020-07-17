@@ -6,7 +6,7 @@ Company Supervisor: Marc Ferras-Font (SONY)
 
 Automatic Speech Recognition (ASR) systems convert speech from a recorded audio signal to text. 
 Such systems aim to infer the original words given an observable signal, most commonly following a probabilistic approach. 
-We call decoding the process of calculating which sequence of words is most likely to match the acoustic signal [1].
+We call decoding the process of calculating which sequence of words is most likely to match the acoustic signal [[1](#references)].
 
 One extensively used way of searching the best word sequence involves the use of Weighted Finite State Transducers (WFST), static graphs encoding the whole word-sequence search space. 
 They contain many levels of information, and define what is allowed (and more probable) in the language. 
